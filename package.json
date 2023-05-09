@@ -1,7 +1,7 @@
 {
   "name": "data-lovers",
   "version": "1.0.0",
-  "main": "src/index.html",
+  "main": "index.html",
   "license": "MIT",
   "scripts": {
     "htmlhint": "htmlhint src/*.html test/*.html",
@@ -10,7 +10,7 @@
     "test": "jest --verbose --coverage --env=jsdom",
     "open-coverage-report": "opener ./coverage/lcov-report/index.html",
     "start": "serve src/",
-    "deploy": "gh-pages -d src"
+    "deploy": "gh-pages -d ./index.html"
   },
   "dependencies": {
     "@babel/core": "^7.6.2",
